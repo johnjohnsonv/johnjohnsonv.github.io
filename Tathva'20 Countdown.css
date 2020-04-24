@@ -1,0 +1,750 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+
+	
+	
+	
+	font-family: 'Baloo Tammudu 2', cursive;
+}
+.w1,
+.w2,
+.w3,
+.w4 {
+	position: relative;
+	display: inline-block;
+	margin: 20px;
+	transform: translate(90px,-30px);
+}
+.logo {
+	top: 0px;
+	z-index: 1;
+
+
+
+}
+.w1 {
+	position: relative;
+	
+}
+.day{
+	position:absolute;
+	top:114.5px;
+	right: 81px;
+
+
+	
+
+}
+
+.day svg {
+	display: inline-block;
+	margin: 5px;
+}
+.day svg .segment {
+	fill: rgba(0,0,0,.15);
+	transition: .3s ease-in-out;
+}
+.day svg.num-1 .b,
+.day svg.num-1 .c,
+
+.day svg.num-2 .a,
+.day svg.num-2 .b,
+.day svg.num-2 .d,
+.day svg.num-2 .e,
+.day svg.num-2 .g,
+
+.day svg.num-3 .a,
+.day svg.num-3 .b,
+.day svg.num-3 .c,
+.day svg.num-3 .d,
+.day svg.num-3 .g,
+
+.day svg.num-4 .b,
+.day svg.num-4 .c,
+.day svg.num-4 .f,
+.day svg.num-4 .g,
+
+.day svg.num-5 .a,
+.day svg.num-5 .c,
+.day svg.num-5 .d,
+.day svg.num-5 .f,
+.day svg.num-5 .g,
+
+.day svg.num-6 .a,
+.day svg.num-6 .c,
+.day svg.num-6 .d,
+.day svg.num-6 .e,
+.day svg.num-6 .f,
+.day svg.num-6 .g,
+
+.day svg.num-7 .a,
+.day svg.num-7 .b,
+.day svg.num-7 .c,
+
+.day svg.num-8 .a,
+.day svg.num-8 .b,
+.day svg.num-8 .c,
+.day svg.num-8 .d,
+.day svg.num-8 .e,
+.day svg.num-8 .f,
+.day svg.num-8 .g,
+
+.day svg.num-9 .a,
+.day svg.num-9 .b,
+.day svg.num-9 .c,
+.day svg.num-9 .d,
+.day svg.num-9 .f,
+.day svg.num-9 .g,
+
+.day svg.num-d .a,
+.day svg.num-d .b,
+.day svg.num-d .c,
+.day svg.num-d .d,
+.day svg.num-d .e,
+.day svg.num-d .f, 
+
+.day svg.num-a .a,
+.day svg.num-a .b,
+.day svg.num-a .c,
+.day svg.num-a .g,
+.day svg.num-a .e,
+.day svg.num-a .f,
+
+.day svg.num-y .b,
+.day svg.num-y .c,
+.day svg.num-y .f,
+.day svg.num-y .g,
+.day svg.num-y .d,
+
+.day svg.num-s .a,
+.day svg.num-s .c,
+.day svg.num-s .d,
+.day svg.num-s .f,
+.day svg.num-s .g,
+
+
+.day svg.num-0 .a,
+.day svg.num-0 .b,
+.day svg.num-0 .c,
+.day svg.num-0 .d,
+.day svg.num-0 .e,
+.day svg.num-0 .f {
+	fill: #0984e3;
+}
+
+
+.l1{
+	position: relative;
+	width: 270px;
+	height: 270px;
+	border-radius: 50%;
+	background: linear-gradient(#14ffe9,#ffeb3b,#ff00e0);
+	animation: animate 0.5s linear infinite;
+	display: inline-block;	 
+	margin: 20px;
+}
+
+.l1 span 
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background: linear-gradient(#14ffe9,#ffeb3b,#ff00e0);
+	animation: animate 0.5s linear infinite;	 
+}
+.l1 span:nth-child(1){
+	filter: blur(5px);
+
+
+} 
+.l1 span:nth-child(2){
+	filter: blur(10px);
+
+
+} 
+.l1 span:nth-child(3){
+	filter: blur(25px);
+
+
+} 
+.l1 span:nth-child(4){
+	filter: blur(50px);
+
+
+} 
+
+.l1:after
+ {
+	content: '';
+	position: absolute;
+	top: 10px;
+	left: 10px;		
+	right: 10px;
+	bottom: 10px;	
+	background: #380334;
+	border-radius: 50%
+}
+
+///
+.w2 {
+	position: relative;
+	
+}
+.hour{
+	position:absolute;
+	top:72.5px;
+	right: 56.5px;
+
+
+	
+
+}
+
+.hour svg {
+	display: inline-block;
+	margin: 5px;
+}
+.hour svg .segment {
+	fill: rgba(0,0,0,.15);
+	transition: .3s ease-in-out;
+}
+.hour svg.num-1 .b,
+.hour svg.num-1 .c,
+
+.hour svg.num-2 .a,
+.hour svg.num-2 .b,
+.hour svg.num-2 .d,
+.hour svg.num-2 .e,
+.hour svg.num-2 .g,
+
+.hour svg.num-3 .a,
+.hour svg.num-3 .b,
+.hour svg.num-3 .c,
+.hour svg.num-3 .d,
+.hour svg.num-3 .g,
+
+.hour svg.num-4 .b,
+.hour svg.num-4 .c,
+.hour svg.num-4 .f,
+.hour svg.num-4 .g,
+
+.hour svg.num-5 .a,
+.hour svg.num-5 .c,
+.hour svg.num-5 .d,
+.hour svg.num-5 .f,
+.hour svg.num-5 .g,
+
+.hour svg.num-6 .a,
+.hour svg.num-6 .c,
+.hour svg.num-6 .d,
+.hour svg.num-6 .e,
+.hour svg.num-6 .f,
+.hour svg.num-6 .g,
+
+.hour svg.num-7 .a,
+.hour svg.num-7 .b,
+.hour svg.num-7 .c,
+
+.hour svg.num-8 .a,
+.hour svg.num-8 .b,
+.hour svg.num-8 .c,
+.hour svg.num-8 .d,
+.hour svg.num-8 .e,
+.hour svg.num-8 .f,
+.hour svg.num-8 .g,
+
+.hour svg.num-9 .a,
+.hour svg.num-9 .b,
+.hour svg.num-9 .c,
+.hour svg.num-9 .d,
+.hour svg.num-9 .f,
+.hour svg.num-9 .g,
+
+.hour svg.num-d .a,
+.hour svg.num-d .b,
+.hour svg.num-d .c,
+.hour svg.num-d .d,
+.hour svg.num-d .e,
+.hour svg.num-d .f, 
+
+.hour svg.num-a .a,
+.hour svg.num-a .b,
+.hour svg.num-a .c,
+.hour svg.num-a .g,
+.hour svg.num-a .e,
+.hour svg.num-a .f,
+
+.hour svg.num-y .b,
+.hour svg.num-y .c,
+.hour svg.num-y .f,
+.hour svg.num-y .g,
+.hour svg.num-y .d,
+
+.hour svg.num-s .a,
+.hour svg.num-s .c,
+.hour svg.num-s .d,
+.hour svg.num-s .f,
+.hour svg.num-s .g,
+
+
+.hour svg.num-0 .a,
+.hour svg.num-0 .b,
+.hour svg.num-0 .c,
+.hour svg.num-0 .d,
+.hour svg.num-0 .e,
+.hour svg.num-0 .f {
+	fill: #0984e3;
+}
+
+
+.l2 {
+	position: relative;
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	background: linear-gradient(#14ffe9,#ffeb3b,#ff00e0);
+	animation: animate 0.5s linear infinite;
+	display: inline-block;	 
+	margin: 20px;
+}
+.l2 span 
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background: linear-gradient(#14ffe9,#ffeb3b,#ff00e0);
+	animation: animate 0.5s linear infinite;	 
+}
+.l2 span:nth-child(1){
+	filter: blur(5px);
+
+
+} 
+.l2 span:nth-child(2){
+	filter: blur(10px);
+
+
+} 
+.l2 span:nth-child(3){
+	filter: blur(25px);
+
+
+} 
+.l2 span:nth-child(4){
+	filter: blur(50px);
+
+
+} 
+
+.l2:after
+ {
+	content: '';
+	position: absolute;
+	top: 10px;
+	left: 10px;		
+	right: 10px;
+	bottom: 10px;	
+	background: #380334;
+	border-radius: 50%
+}
+
+///
+
+.w3 {
+	position: relative;
+	
+}
+.minute{
+	position:absolute;
+	top: 72.5px;
+	right: 57px;
+
+}
+
+.minute svg {
+	display: inline-block;
+	margin: 5px;
+}
+.minute svg .segment {
+	fill: rgba(0,0,0,.15);
+	transition: .3s ease-in-out;
+}
+.minute svg.num-1 .b,
+.minute svg.num-1 .c,
+
+.minute svg.num-2 .a,
+.minute svg.num-2 .b,
+.minute svg.num-2 .d,
+.minute svg.num-2 .e,
+.minute svg.num-2 .g,
+
+.minute svg.num-3 .a,
+.minute svg.num-3 .b,
+.minute svg.num-3 .c,
+.minute svg.num-3 .d,
+.minute svg.num-3 .g,
+
+.minute svg.num-4 .b,
+.minute svg.num-4 .c,
+.minute svg.num-4 .f,
+.minute svg.num-4 .g,
+
+.minute svg.num-5 .a,
+.minute svg.num-5 .c,
+.minute svg.num-5 .d,
+.minute svg.num-5 .f,
+.minute svg.num-5 .g,
+
+.minute svg.num-6 .a,
+.minute svg.num-6 .c,
+.minute svg.num-6 .d,
+.minute svg.num-6 .e,
+.minute svg.num-6 .f,
+.minute svg.num-6 .g,
+
+.minute svg.num-7 .a,
+.minute svg.num-7 .b,
+.minute svg.num-7 .c,
+
+.minute svg.num-8 .a,
+.minute svg.num-8 .b,
+.minute svg.num-8 .c,
+.minute svg.num-8 .d,
+.minute svg.num-8 .e,
+.minute svg.num-8 .f,
+.minute svg.num-8 .g,
+
+.minute svg.num-9 .a,
+.minute svg.num-9 .b,
+.minute svg.num-9 .c,
+.minute svg.num-9 .d,
+.minute svg.num-9 .f,
+.minute svg.num-9 .g,
+
+.minute svg.num-d .a,
+.minute svg.num-d .b,
+.minute svg.num-d .c,
+.minute svg.num-d .d,
+.minute svg.num-d .e,
+.minute svg.num-d .f, 
+
+.minute svg.num-a .a,
+.minute svg.num-a .b,
+.minute svg.num-a .c,
+.minute svg.num-a .g,
+.minute svg.num-a .e,
+.minute svg.num-a .f,
+
+.minute svg.num-y .b,
+.minute svg.num-y .c,
+.minute svg.num-y .f,
+.minute svg.num-y .g,
+.minute svg.num-y .d,
+
+.minute svg.num-s .a,
+.minute svg.num-s .c,
+.minute svg.num-s .d,
+.minute svg.num-s .f,
+.minute svg.num-s .g,
+
+
+.minute svg.num-0 .a,
+.minute svg.num-0 .b,
+.minute svg.num-0 .c,
+.minute svg.num-0 .d,
+.minute svg.num-0 .e,
+.minute svg.num-0 .f {
+	fill: #0984e3;
+}
+
+
+.l3{
+	position: relative;
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	background: linear-gradient(#14ffe9,#ffeb3b,#ff00e0);
+	animation: animate 0.5s linear infinite;
+	display: inline-block;	 
+	margin: 20px;
+}
+.l3 span 
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background: linear-gradient(#14ffe9,#ffeb3b,#ff00e0);
+	animation: animate 0.5s linear infinite;	 
+}
+.l3 span:nth-child(1){
+	filter: blur(5px);
+
+
+} 
+.l3 span:nth-child(2){
+	filter: blur(10px);
+
+
+} 
+.l3 span:nth-child(3){
+	filter: blur(25px);
+
+
+} 
+.l3 span:nth-child(4){
+	filter: blur(50px);
+
+
+} 
+
+.l3:after
+ {
+	content: '';
+	position: absolute;
+	top: 10px;
+	left: 10px;		
+	right: 10px;
+	bottom: 10px;	
+	background: #380334;
+	border-radius: 50%
+}
+
+////
+
+.w4 {
+	position: relative;
+	
+}
+.second{
+	position:absolute;
+	top: 72.5px;
+	right: 57px;
+
+}
+
+.second svg {
+	display: inline-block;
+	margin: 5px;
+}
+.second svg .segment {
+	fill: rgba(0,0,0,.15);
+	transition: .3s ease-in-out;
+}
+.second svg.num-1 .b,
+.second svg.num-1 .c,
+
+.second svg.num-2 .a,
+.second svg.num-2 .b,
+.second svg.num-2 .d,
+.second svg.num-2 .e,
+.second svg.num-2 .g,
+
+.second svg.num-3 .a,
+.second svg.num-3 .b,
+.second svg.num-3 .c,
+.second svg.num-3 .d,
+.second svg.num-3 .g,
+
+.second svg.num-4 .b,
+.second svg.num-4 .c,
+.second svg.num-4 .f,
+.second svg.num-4 .g,
+
+.second svg.num-5 .a,
+.second svg.num-5 .c,
+.second svg.num-5 .d,
+.second svg.num-5 .f,
+.second svg.num-5 .g,
+
+.second svg.num-6 .a,
+.second svg.num-6 .c,
+.second svg.num-6 .d,
+.second svg.num-6 .e,
+.second svg.num-6 .f,
+.second svg.num-6 .g,
+
+.second svg.num-7 .a,
+.second svg.num-7 .b,
+.second svg.num-7 .c,
+
+.second svg.num-8 .a,
+.second svg.num-8 .b,
+.second svg.num-8 .c,
+.second svg.num-8 .d,
+.second svg.num-8 .e,
+.second svg.num-8 .f,
+.second svg.num-8 .g,
+
+.second svg.num-9 .a,
+.second svg.num-9 .b,
+.second svg.num-9 .c,
+.second svg.num-9 .d,
+.second svg.num-9 .f,
+.second svg.num-9 .g,
+
+.second svg.num-d .a,
+.second svg.num-d .b,
+.second svg.num-d .c,
+.second svg.num-d .d,
+.second svg.num-d .e,
+.second svg.num-d .f, 
+
+.second svg.num-a .a,
+.second svg.num-a .b,
+.second svg.num-a .c,
+.second svg.num-a .g,
+.second svg.num-a .e,
+.second svg.num-a .f,
+
+.second svg.num-y .b,
+.second svg.num-y .c,
+.second svg.num-y .f,
+.second svg.num-y .g,
+.second svg.num-y .d,
+
+.second svg.num-s .a,
+.second svg.num-s .c,
+.second svg.num-s .d,
+.second svg.num-s .f,
+.second svg.num-s .g,
+
+
+.second svg.num-0 .a,
+.second svg.num-0 .b,
+.second svg.num-0 .c,
+.second svg.num-0 .d,
+.second svg.num-0 .e,
+.second svg.num-0 .f {
+	fill: #0984e3;
+}
+
+
+.l4{
+	position: relative;
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	background: linear-gradient(#14ffe9,#ffeb3b,#ff00e0);
+	animation: animate 0.5s linear infinite;
+	display: inline-block;	 
+	margin: 20px;
+}
+
+.l4 span 
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background: linear-gradient(#14ffe9,#ffeb3b,#ff00e0);
+	animation: animate 0.5s linear infinite;	 
+}
+.l4 span:nth-child(1){
+	filter: blur(5px);
+
+
+} 
+.l4 span:nth-child(2){
+	filter: blur(10px);
+
+
+} 
+.l4 span:nth-child(3){
+	filter: blur(25px);
+
+
+} 
+.l4 span:nth-child(4){
+	filter: blur(50px);
+
+
+} 
+
+.l4:after
+ {
+	content: '';
+	position: absolute;
+	top: 10px;
+	left: 10px;		
+	right: 10px;
+	bottom: 10px;	
+	background: #380334;
+	border-radius: 50%
+}
+
+.neon1{
+	position: absolute;
+	top: 256px;
+	right: 98px;
+	padding: 0 20px;
+	color: #fff;
+	text-shadow: 0 0 20px #0984e3;
+	
+
+
+
+}
+
+.neon2{
+	position: absolute;
+	top: 165px;
+	right: 39px;
+	padding: 0 20px;
+	color: #fff;
+	text-shadow: 0 0 20px #0984e3;
+	
+
+
+
+}
+
+.neon3{
+	position: absolute;
+	top: 165px;
+	right: 20px;
+	padding: 0 20px;
+	color: #fff;
+	text-shadow: 0 0 20px #0984e3;
+	
+
+
+
+}
+
+.neon4
+{
+	position: absolute;
+	top: 165px;
+	right: 15.5px;
+	padding: 0 20px;
+	color: #fff;
+	text-shadow: 0 0 20px #0984e3;
+	
+
+
+
+}
+
+#animated {
+	width: 100%;
+	height: 100%;
+	background: url(BG2.jpg);
+	background-color: #380334 ;	
+	background-size: cover;
+	animation: animatebackground 50s ease-in-out infinite;
+
+}
+@keyframes animatebackground {
+	from {background-position: 0 0;
+	}
+	to {background-position: -1000px 0px;}
+}
+
